@@ -1,6 +1,6 @@
 page{
   background-color: $uni-bg-color;
-  padding-bottom: 140rpx;
+  // padding-bottom: 140rpx;
 }
 
 .head-bar {
@@ -10,9 +10,9 @@ page{
 	z-index: 100;
 	width: 100%;
 	min-height: 120rpx;
-	background-color: aquamarine;
-	// justify-content: flex-start;
-	
+	background-color: $uni-bg-color;
+	// background-color: aquamarine;
+		
 	.head-pop-bar {
 		position: relative;
 		width: 100rpx;
@@ -40,4 +40,9 @@ page{
 	}
 }
 
-
+.conversation-list {
+	position: absolute;
+	width: 100%;
+	top: 120rpx;
+	// margin-top: 120rpx;
+}

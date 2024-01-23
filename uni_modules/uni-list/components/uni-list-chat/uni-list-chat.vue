@@ -292,7 +292,7 @@
 	$badge-size: 18px;
 	$badge-font: 12px;
 	$badge-color: #fff;
-	$badge-background-color: #ff5a5f;
+	$badge-background-color: rgb(170,176,198);
 	$badge-space: 6px;
 	$hover: #f5f5f5;
 

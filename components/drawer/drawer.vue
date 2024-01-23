@@ -1,14 +1,12 @@
 <template>
-	<view>
-		<uni-drawer ref="drawer" class="drawer" mode="left" :mask="false" @change="drawerChange"
+	<view class="drawer">
+		<uni-drawer ref="drawer" mode="left" :mask="false" @change="drawerChange"
 			@touchstart="drawerTouchStart" @touchend="drawerTouchEnd" @touchmove="drawerTouchMove"
 			@touchcancel="drawerTouchCancel" @mousedown="drawerTouchStart" @mouseup="drawerTouchEnd"
 			@mousemove="drawerTouchMove" :width="drawerWidth"
 			:class="{'drawer--recover': drawerRecover}"
 			:style="{transform: `translateX(${drawerStyleLeft}px)`}">
-			<!-- <view class="close"> -->
-			<!-- <button @click="closeDrawer('showLeft')"><text class="word-btn-white">关闭Drawer</text></button> -->
-			<!-- </view> -->
+			<slot></slot>
 		</uni-drawer>
 	</view>
 </template>

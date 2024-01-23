@@ -14,19 +14,22 @@
 					</view>
 				</view>
 			</view>
+			
 			<!-- main -->
-			<view>
-
+			<view class="conversation-list">
+				<conversation-list></conversation-list>
 			</view>
 		</view>
 
 		<drawer ref="settingDrawer">
-
+			<settings-bar></settings-bar>
 		</drawer>
 	</page>
 </template>
 
 <script setup>
+	import ConversationList from './conversation-list/conversation-list.vue'
+	import SettingsBar from '../settings-bar/settings-bar.vue'
 	import {
 		ref
 	} from 'vue';
@@ -43,6 +46,7 @@
 	function showSettingDrawer() {
 		settingDrawer.value.open()
 	}
+
 </script>
 
 <style lang="scss">
