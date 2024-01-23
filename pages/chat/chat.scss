@@ -1,0 +1,43 @@
+page{
+  background-color: $uni-bg-color;
+  padding-bottom: 140rpx;
+}
+
+.head-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	min-height: 120rpx;
+	background-color: aquamarine;
+	// justify-content: flex-start;
+	
+	.head-pop-bar {
+		position: relative;
+		width: 100rpx;
+		// background-color: salmon;
+		
+		.head-pop-icon {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+	
+	.head-title-bar {
+		position: relative;
+		width: 100%;
+		// background-color: antiquewhite;
+		
+		.head-title {
+			position: absolute;
+			top: 50%;
+			left: 5rpx;
+			transform: translate(0%, -50%);
+		}
+	}
+}
+
+
