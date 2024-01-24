@@ -3,12 +3,12 @@
 		<uni-list >
 			<uni-list-chat v-for="(item) in chatList" 
 				:avatar="item.avator"
-				avatar-circle=true
+				:avatar-circle="true"
 				:title="item.nickname"
 				:note="item.message"
 				:badge-text="50"
 				time="2024-01-12 15:23"
-				clickable=true
+				:clickable="true"
 			>
 			</uni-list-chat>
 			<!-- <uni-list-item title="列表文字0" note="列表描述信息"></uni-list-item>
@@ -114,6 +114,19 @@
 	])
 	
 </script>
+
+<style scoped>
+	>>> .uni-list-chat__content-title {
+		font-size: 35rpx;
+		font-weight: bold;
+		overflow: hidden;
+	}
+	
+	>>> .uni-list-chat__content-note {
+		font-size: 30rpx;
+		overflow: hidden;
+	}
+</style>
 
 <style lang="scss">
 @import 'conversation-list.scss'

@@ -93,7 +93,7 @@
 
 		const touchContinueTime = Math.round(new Date()) - drawerTouches.beginTime
 
-		console.log("angleDegress:", angleDegress, vectorXLength)
+		// console.log("angleDegress:", angleDegress, vectorXLength)
 
 		drawerTouches.inTouch = false
 

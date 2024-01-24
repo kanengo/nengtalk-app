@@ -42,7 +42,14 @@
             },
             "ios" : {},
             /* ios打包配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {
+                "push" : {
+                    "unipush" : {
+                        "version" : "2",
+                        "offline" : false
+                    }
+                }
+            }
         }
     },
     /* SDK配置 */
