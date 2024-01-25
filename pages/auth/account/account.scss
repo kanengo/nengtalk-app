@@ -1,0 +1,37 @@
+.auth__account {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: $uni-white;
+}
+
+.auth__account--forms {
+	// position: absolute;
+
+	width: 80%;
+}
+
+.auth__account--iunput {
+	display: flex;
+	width: 100%;
+	// margin-top: 20rpx;
+	// margin-bottom: 20rpx;
+}
+
+.auth__account--button {
+	// display: flex;
+	// position: absolute;
+	// left: 0;
+	// right: 0;
+	// color: #b0b8b9;
+	// background: #b0b8b9;
+	margin-top: 40rpx;
+	width: 100%;
+	
+}

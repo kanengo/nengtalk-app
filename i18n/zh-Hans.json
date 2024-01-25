@@ -1,0 +1,7 @@
+{
+	"auth.account.username": "用户名",
+	"auth.account.usernameEmpty": "请填写用户名",
+	"auth.account.passwordEmpty": "请填写密码",
+	"auth.account.password": "密码",
+	"auth.account.desc": "登录"
+}

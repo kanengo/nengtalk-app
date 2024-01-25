@@ -1,6 +1,15 @@
 {
 	"pages": [
 		{
+			"path" : "pages/auth/auth",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path" : "pages/chat/chat",
 			"style" : 
 			{
@@ -8,6 +17,14 @@
 				"enablePullDownRefresh" : false,
 				"navigationStyle": "custom"
 				
+			}
+		},
+		{
+			"path" : "pages/auth/account/account",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
 			}
 		}
 	],

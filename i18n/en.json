@@ -1,0 +1,7 @@
+{
+	"auth.account.username": "username",
+	"auth.account.usernameEmpty": "please input username",
+	"auth.account.passwordEmpty": "please input password",
+	"auth.account.password": "password",
+	"auth.account.desc": "login"
+}
